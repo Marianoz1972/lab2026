@@ -21,6 +21,13 @@ Este repositorio está preparado como laboratorio para pruebas, experimentación
 ##   Enviroment en Unreal Engine
 
 
+## Cómo empezar
+
+1. Clona el repositorio.
+2. Revisa este README.
+3. Agrega tu código y documentación en commits pequeños y claros.
+
+
 
 
 EOF
