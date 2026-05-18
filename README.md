@@ -16,5 +16,12 @@ Este repositorio está preparado como laboratorio para pruebas, experimentación
 `README.md`: documentación principal del proyecto.
 
 
+##   Desarrollo de aplicaciones para Maya
+
+##   Enviroment en Unreal Engine
+
+
+
+
 EOF
 )
