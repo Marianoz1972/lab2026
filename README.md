@@ -4,13 +4,17 @@
 </p>
 
 +Bienvenido a **lab2026** 👋
-+
+
+
 +## Descripción
-+Este repositorio está preparado como laboratorio para pruebas, experimentación y documentación del proyecto.
-+
-+## Estructura inicial
+
+Este repositorio está preparado como laboratorio para pruebas, experimentación y documentación del proyecto.
+
+
+## Estructura inicial
+
 +- `README.md`: documentación principal del proyecto.
-+
+
 
 EOF
 )
