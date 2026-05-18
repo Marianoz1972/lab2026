@@ -19,10 +19,6 @@ index 0000000000000000000000000000000000000000..1cb17559f06312330c778ec30cc1d314
 +## Estructura inicial
 +- `README.md`: documentación principal del proyecto.
 +
-+## Cómo empezar
-+1. Clona el repositorio.
-+2. Revisa este README.
-+3. Agrega tu código y documentación en commits pequeños y claros.
- 
+
 EOF
 )
