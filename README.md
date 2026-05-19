@@ -173,6 +173,12 @@ Esta tool no solo automatiza tareas, sino que:
 👉 Reduce errores humanos
 👉 Permite enfocarse en lo creativo
 
+Descarga
+
+[Descargar Maya 2027 Scene Setup Tool (.rar)](https://drive.google.com/drive/folders/1OJfScIpTXt9NiqAlBlpiwPdKxtPa-kGv?usp=sharing
+)
+https://drive.google.com/drive/folders/1OJfScIpTXt9NiqAlBlpiwPdKxtPa-kGv?usp=sharing
+
 
 ##   Enviroment en Unreal Engine
 
