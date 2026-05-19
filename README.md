@@ -175,7 +175,7 @@ Esta tool no solo automatiza tareas, sino que:
 
 Descarga
 
-[Descargar Maya 2027 Scene Setup Tool (.rar)](https://drive.google.com/drive/folders/1OJfScIpTXt9NiqAlBlpiwPdKxtPa-kGv?usp=sharing
+[Descargar Maya 2027 Scene Setup Tool (.rar)]  (https://drive.google.com/drive/folders/1OJfScIpTXt9NiqAlBlpiwPdKxtPa-kGv?usp=sharing
 )
 https://drive.google.com/drive/folders/1OJfScIpTXt9NiqAlBlpiwPdKxtPa-kGv?usp=sharing
 
