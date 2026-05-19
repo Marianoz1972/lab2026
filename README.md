@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/377595b0-a796-4791-9551-7258310acea9
+
 ![image alt](https://github.com/Marianoz1972/lab2026/blob/main/Imagenes/banner_qr_center.png?raw=true)
 
 <p align="center">
@@ -161,9 +165,14 @@ Efectos
 ![image alt](https://github.com/Marianoz1972/Tech_Art_mariano_zulueta_Porfolio/blob/ab61fd0ee6cf28de46f1a2e7832b6602cbcb2137/domo.JPG)
 
 🎥 video
-Aca r mostramos como instalar el codigo en Maya y como ejecutar la ui
 
-https://github.com/user-attachments/assets/cb82d09b-f8b0-40b9-919a-92ab50f2bbc3
+
+💥 Aca r mostramos como instalar el codigo en Maya y como ejecutar la ui
+
+
+
+https://github.com/user-attachments/assets/59339966-424a-4951-81f8-9ac863f8d2d9
+
 
 
 
