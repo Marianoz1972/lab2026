@@ -162,8 +162,7 @@ Efectos
 
 🎥 video
 
-
-https://github.com/user-attachments/assets/8a3bff35-7361-4a2b-960f-1b5a1453aaa9
+https://github.com/Marianoz1972/lab2026/blob/main/Videos/instalacion.mp4
 
 💥 Valor como herramienta
 
