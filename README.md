@@ -1,3 +1,6 @@
+
+
+
 ![image alt](https://github.com/Marianoz1972/lab2026/blob/main/Imagenes/banner_qr_center.png?raw=true)
 
 <p align="center">
@@ -163,7 +166,16 @@ Efectos
 🎥 video
 
 
-https://github.com/user-attachments/assets/8a3bff35-7361-4a2b-960f-1b5a1453aaa9
+💥 Aca r mostramos como instalar el codigo en Maya y como ejecutar la ui
+
+
+
+https://github.com/user-attachments/assets/59339966-424a-4951-81f8-9ac863f8d2d9
+
+
+
+
+
 
 💥 Valor como herramienta
 
