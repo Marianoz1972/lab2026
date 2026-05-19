@@ -1,6 +1,5 @@
 
 
-https://github.com/user-attachments/assets/377595b0-a796-4791-9551-7258310acea9
 
 ![image alt](https://github.com/Marianoz1972/lab2026/blob/main/Imagenes/banner_qr_center.png?raw=true)
 
