@@ -161,8 +161,13 @@ Efectos
 ![image alt](https://github.com/Marianoz1972/Tech_Art_mariano_zulueta_Porfolio/blob/ab61fd0ee6cf28de46f1a2e7832b6602cbcb2137/domo.JPG)
 
 🎥 video
+Aca r mostramos como instalar el codigo en Maya y como ejecutar la ui
 
-https://github.com/Marianoz1972/lab2026/blob/main/Videos/instalacion.mp4
+https://github.com/user-attachments/assets/cb82d09b-f8b0-40b9-919a-92ab50f2bbc3
+
+
+
+
 
 💥 Valor como herramienta
 
