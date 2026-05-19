@@ -24,78 +24,129 @@ Este repositorio está preparado como laboratorio para pruebas, experimentación
 
 🎯 ¿Qué hace esta herramienta?
 
-Lighting Tool PRO es una herramienta desarrollada para Autodesk Maya que automatiza la creación de setups de iluminación profesionales con un solo clic.
+## Panel De La Herramienta
 
-Permite generar diferentes moods visuales sin necesidad de configurar luces manualmente.
+El panel principal incluye controles para:
 
-🧠 Objetivo principal
+- `Light type`: tipo de luz a crear.
+- `Count`: cantidad de luces.
+- `Intensity`: intensidad de las luces.
+- `Color`: color de las luces.
+- `Height`: altura de las luces en relacion al tamano del objeto.
+- `Distance`: distancia de las luces respecto al objeto.
+- `Replace previous lights`: borra las luces anteriores creadas por la herramienta antes de crear nuevas.
 
-Reducir el tiempo de trabajo en iluminación y garantizar:
+Tambien incluye botones para:
 
-Consistencia visual
-Rapidez en iteración
-Resultados cinematográficos inmediatos
+- `Create Lights`: crear luces con los valores elegidos.
+- `Create Floor + Sky Dome`: crear el entorno basico.
+- `Beauty Cameras`: crear camaras principales de presentacion.
+- `Turntable Cameras`: crear camaras frontal, lateral, trasera y superior.
+- `Delete Lights`: borrar luces generadas por la herramienta.
+- `Delete Environment`: borrar floor y sky dome generados por la herramienta.
+- `Delete Cameras`: borrar camaras generadas por la herramienta.
+- `Delete All M27`: borrar todo el setup generado.
 
-⚙️ ¿Cómo funciona?
+## Organizacion En Escena
 
-La herramienta:
+Todos los objetos generados se organizan dentro de grupos con el prefijo `M27`:
 
-Detecta el objeto seleccionado
-Calcula su posición en el espacio
-Genera automáticamente un sistema de luces
-Orienta las luces hacia el objeto
-Ajusta intensidad/exposure según el motor de render
+## Features
+- `M27_sceneSetup_GRP`: grupo principal.
+- `M27_lights_GRP`: luces creadas por la herramienta.
+- `M27_environment_GRP`: floor y sky dome.
+- `M27_cameras_GRP`: camaras y locator de aim.
 
-🎛️ Presets incluidos
+- Creates a floor and sky dome around the selected object.
+- Creates lights around the selected object using themed presets:
+  - Set de estudio
+  - Terror
+  - Interior dia
+  - Exterior noche
+- Creates beauty or turntable cameras aimed at the selected object.
+- Deletes generated lights, environment, cameras, or the full generated setup.
+- Keeps generated objects inside `M27_*` groups so cleanup does not affect unrelated scene content.
+Esta organizacion permite mantener la escena limpia y borrar facilmente solo los elementos generados por la herramienta.
 
-🌙 Luz de Luna
+## Install In Maya
+## Instalacion Como Modulo
 
-Tipo: Iluminación nocturna
+1. Copy or keep the `maya2027_tool` folder somewhere stable.
+2. Add the parent folder to Maya's module path, or copy `maya2027_tool.mod` into:
+1. Copiar o mantener la carpeta `maya2027_tool` en una ubicacion estable.
+2. Agregar la carpeta padre al module path de Maya, o copiar `maya2027_tool.mod` en:
 
-Características:
+   `Documents/maya/2027/modules`
 
-Luz direccional azul (luz lunar)
-Fill suave para conservar detalle
-Sombras frías y profundas
+3. Start Maya 2027.
+4. Open the Script Editor and run:
+3. Abrir Maya 2027.
+4. Ejecutar en el Script Editor, pestaña Python:
 
-Uso ideal:
+   ```python
+   import maya2027_tool
+   maya2027_tool.show()
+   ```
 
-Escenarios exteriores
-Ambientes fríos / nieve
-Narrativa cinematográfica nocturna
+## Install Shelf Button
+## Instalacion En Shelf
 
-⚪ NEUTRO
+After the module loads, run this in Maya's Python tab:
+Despues de cargar el modulo, ejecutar:
 
-Tipo: Iluminación dramática
+```python
+import install_shelf
+install_shelf.install()
+```
 
-Características:
+## Development Reload
+Esto crea un boton en el shelf actual para abrir la herramienta rapidamente.
 
-Luz principal roja profunda
-Fill azul frío
-Alto contraste
+Use this while editing the tool:
+## Uso Recomendado
 
-Uso ideal:
+1. Seleccionar el objeto o grupo principal de la escena.
+2. Crear el floor y sky dome.
+3. Elegir el tipo de luz.
+4. Definir cantidad, color e intensidad.
+5. Crear luces.
+6. Crear camaras si se necesita una vista de presentacion.
+7. Ajustar manualmente las luces si se requiere un resultado mas artistico.
 
-Escenas con tensión
-Storytelling visual
-Composición cinematográfica
+## Notas
 
-🎨 Portfolio Setup
+- Para ver correctamente el color de las luces en el viewport, activar `Lighting > Use All Lights`.
+- La herramienta no modifica el objeto seleccionado.
+- Los elementos generados pueden borrarse desde los botones de cleanup.
+- Si no hay ningun objeto seleccionado, la herramienta muestra una advertencia y no crea elementos.
 
-Tipo: Iluminación de estudio
+## Estructura Del Proyecto
 
-Características:
+- `maya2027_tool.mod`: definicion de modulo de Maya.
+- `scripts/maya2027_tool/main.py`: entrypoints publicos.
+- `scripts/maya2027_tool/ui.py`: interfaz de usuario.
+- `scripts/maya2027_tool/actions.py`: logica de creacion de luces, entorno y camaras.
+- `scripts/install_shelf.py`: instalador del boton de shelf.
 
-Sistema de 3 luces (key / fill / rim)
-Iluminación balanceada
-Sombras suaves
+## Desarrollo
 
-Uso ideal:
+Durante el desarrollo, usar:
 
-Presentación de assets
-Portfolio
-Render final limpio
+```python
+import maya2027_tool.main
+maya2027_tool.main.reload_and_show()
+```
 
+## Current Example Behavior
+
+1. Select one or more transform objects in Maya.
+2. Choose a theme.
+3. Click `Create Themed Setup`.
+4. Optionally create cameras with `Beauty Cameras` or `Turntable Cameras`.
+5. Use the cleanup buttons to remove generated objects.
+
+The tool uses the selected object's world-space bounding box to size and place the setup.
+Esto recarga la herramienta y abre la ventana sin reiniciar Maya.
 Escenario Inicial
 
 ![image alt](https://github.com/Marianoz1972/Tech_Art_mariano_zulueta_Porfolio/blob/9420c66e9cc0cde0a2a0e205e7c39e792170f1b4/escena%20inicial.JPG)
