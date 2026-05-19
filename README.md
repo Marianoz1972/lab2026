@@ -22,8 +22,10 @@ Este repositorio está preparado como laboratorio para pruebas, experimentación
 
 ##   Desarrollo de aplicaciones para Maya
 
+![image alt](https://github.com/Marianoz1972/lab2026/blob/main/Imagenes/banner%20rec%20line.png?raw=true)
 
-💡 Lighting Tool PRO
+
+                                                 💡 Lighting Tool PRO
 
 🎯 ¿Qué hace esta herramienta?
 
