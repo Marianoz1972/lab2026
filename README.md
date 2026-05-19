@@ -153,7 +153,7 @@ Escenario Inicial
 
 Herramienta en PANTALLA
 
-![image alt](https://github.com/Marianoz1972/Tech_Art_mariano_zulueta_Porfolio/blob/6ef9d0eb211bc158bfd9a69ab1b8041d07b16c03/herramioneta%20en%20accion.JPG)
+![image alt](https://github.com/Marianoz1972/lab2026/blob/main/Imagenes/UI.png?raw=true)
 
 Efectos
 
